@@ -190,6 +190,9 @@ body {
          position: absolute;
          top: 15px;
          left: 0;
+         @media (max-width: 605px) {
+            top: 8px;
+         }
       }
    }
    &__input {
