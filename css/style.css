@@ -586,6 +586,26 @@ body {
   color: #167FFC;
   text-decoration: underline;
 }
+.item-mods__subtitle .arrow {
+  width: 8.57px;
+  height: 18px;
+}
+.item-mods__subtitle .arrow_big {
+  width: 10.14px;
+  height: 21.3px;
+}
+@media (max-width: 767px) {
+  .item-mods__subtitle .arrow_big {
+    width: 6px;
+    height: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .item-mods__subtitle .arrow {
+    width: 8.57px;
+    height: 18px;
+  }
+}
 /*----different---*/
 .different {
   margin-top: 40px;

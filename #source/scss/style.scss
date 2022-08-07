@@ -421,6 +421,22 @@ body {
             color: #167FFC;
             text-decoration: underline;
          }
+         .arrow {
+            width: 8.57px;
+            height: 18px;
+            &_big {
+               width: 10.14px;
+               height: 21.3px;
+               @media (max-width: 767px) {
+                  width: 6px;
+                  height: 12px;
+               }
+            }
+            @media (max-width: 767px) {
+               width: 8.57px;
+               height: 18px;
+            }
+         }
       }
       &__date {}
       &__author {
